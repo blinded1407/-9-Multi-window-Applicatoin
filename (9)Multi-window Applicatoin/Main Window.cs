@@ -13,7 +13,7 @@ namespace _9_Multi_window_Applicatoin
         {
             InitializeComponent();
             WindowState = FormWindowState.Maximized;
-            FormBorderStyle = FormBorderStyle.Sizable;
+            FormBorderStyle = FormBorderStyle.Fixed3D;
         }
 
         MessageMoment messageMoment = new MessageMoment();

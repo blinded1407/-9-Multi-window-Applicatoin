@@ -9,7 +9,7 @@ namespace _9_Multi_window_Applicatoin
         {
             InitializeComponent();
             WindowState = FormWindowState.Maximized;
-            FormBorderStyle = FormBorderStyle.Sizable;
+            FormBorderStyle = FormBorderStyle.None;
         }
         private void Clear_Click(object sender, EventArgs e)
         {
